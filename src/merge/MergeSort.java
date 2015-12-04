@@ -1,11 +1,5 @@
 package merge;
 
-/**
- * 归并排序 描述：将数组分为两半，对每部分进行归并排序。在两部分都排好序后，对他们进行归并。 时间复杂度：T(n) = nLogn
- * 
- * @author Tong
- * 
- */
 public class MergeSort {
 	public static int[] merge(int[] fir, int[] sec) {
 		int i = 0;

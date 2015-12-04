@@ -1,19 +1,17 @@
 package common;
 
 public class Common {
-	/**
-	 * ÉıĞòÅÅÁĞ
-	 * 
-	 * @param o1
-	 * @param o2
-	 */
-	public Common(){
-		
+
+	public Common() {
+
 	}
-	private static int[] data = {72, 38, 65, 97, 76, 13, 27, 49};
-	public static int[] getData(){
+
+	private static int[] data = { 72, 38, 65, 97, 76, 13, 27, 49 };
+
+	public static int[] getData() {
 		return data;
 	}
+
 	public static <E extends Comparable<E>> void swap(E o1, E o2) {
 		if (o1.compareTo(o2) > 0) {
 			E temp = o1;
@@ -27,8 +25,9 @@ public class Common {
 			System.out.print(element + " ");
 		System.out.println();
 	}
-	public static void printList(int[] list){
-		for(int i : list)
+
+	public static void printList(int[] list) {
+		for (int i : list)
 			System.out.print(i + " ");
 		System.out.println();
 	}
