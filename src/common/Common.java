@@ -22,13 +22,13 @@ public class Common {
 
 	public static <E extends Comparable<E>> void printList(E[] list) {
 		for (E element : list)
-			System.out.print(element + " ");
+			System.out.print(element + "\t");
 		System.out.println();
 	}
 
 	public static void printList(int[] list) {
 		for (int i : list)
-			System.out.print(i + " ");
+			System.out.print(i + "\t");
 		System.out.println();
 	}
 }
